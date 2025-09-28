@@ -1,0 +1,89 @@
+{
+  "name": "bg-window7k",
+  "productName": "BG-Window7k",
+  "version": "0.9.0",
+  "description": "A set of very useful windows",
+  "author": "Jeremy K.M",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "clean": "rimraf dist",
+    "pack": "npm run clean && electron-builder --dir",
+    "dist": "npm run clean && electron-builder",
+    "dist:win": "npm run clean && electron-builder -w"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.13.3",
+    "rimraf": "^5.0.5"
+  },
+  "dependencies": {
+    "electron-updater": "^6.6.2"
+  },
+  "build": {
+    "appId": "com.jeremykm.bgwindow7k",
+    "productName": "BG-Window7k",
+    "artifactName": "${productName}-Setup-${version}.${ext}",
+    "asar": true,
+    "compression": "maximum",
+    "removePackageScripts": true,
+    "directories": {
+      "buildResources": "assets",
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "main.js",
+      "blockDevTools.js",
+      "Pages/**/*",
+      "assets/**/*",
+      "!dist/**",
+      "!**/*.map",
+      "!**/test{,s}/**",
+      "!**/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+      "!**/*.{md,MD}"
+    ],
+    "extraResources": [
+      {
+        "from": "assets",
+        "to": "assets"
+      }
+    ],
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
+      "publisherName": "Jeremy K.M"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "BG-Window7k",
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico",
+      "installerHeaderIcon": "assets/icon.ico",
+      "installerSidebar": "assets/installerBanner.bmp",
+      "license": "license.txt",
+      "deleteAppDataOnUninstall": false,
+      "menuCategory": "BG-Window7k",
+      "displayLanguageSelector": false,
+      "artifactName": "${productName}-Setup-${version}.${ext}"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "gumballkobe",
+        "repo": "bg-window7k",
+        "releaseType": "draft"
+      }
+    ]
+  }
+}

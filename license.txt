@@ -1,0 +1,53 @@
+END USER LICENSE AGREEMENT (EULA)
+BG-Window7k © 2025 Jeremy K.M
+
+IMPORTANT: PLEASE READ CAREFULLY BEFORE INSTALLING OR USING THIS SOFTWARE.
+
+This software (“BG-Window7k”) was created by Jeremy K.M as an experimental local runner using HTML, CSS, and JavaScript. By installing, accessing, or using this application, you agree to the terms of this license agreement.
+
+───────────────────────────────
+1. OWNERSHIP & COPYRIGHT
+───────────────────────────────
+All rights, title, and interest in and to this software, its design, source code, and associated assets are owned by Jeremy K.M.
+
+This software is licensed, not sold. You are granted permission to install and use it for personal or experimental purposes only, subject to the restrictions below.
+
+───────────────────────────────
+2. RESTRICTIONS
+───────────────────────────────
+You MAY NOT, under any circumstances:
+
+• Modify, edit, translate, decompile, disassemble, or reverse engineer any part of the software.
+• Extract or alter any of its underlying source code, design, or structure.
+• Redistribute, resell, sublicense, or publicly share the software or any of its files.
+• Remove or modify any branding, credits, disclaimers, or ownership notices.
+• Claim ownership, authorship, or origin of the software.
+
+Any violation of these restrictions may result in revocation of your license and potential legal action.
+
+───────────────────────────────
+3. USAGE
+───────────────────────────────
+This application is intended for local, non-commercial, and experimental use only. It is provided "AS IS" without warranties of any kind. You assume full responsibility for its use and any outcomes arising from it.
+
+───────────────────────────────
+4. SUPPORT & CONTACT
+───────────────────────────────
+Who the frick is Jeremy K.M?  
+→ Learn more: https://www.crazyandgk.com/jeremyK.M-Socials
+
+Love this project? Support him so he can keep creating more amazing software:  
+→ Patreon: https://www.patreon.com/c/jeremy_km/posts
+
+───────────────────────────────
+5. DISCLAIMER
+───────────────────────────────
+This software is provided “AS IS”, without warranty of any kind, express or implied, including but not limited to fitness for a particular purpose or noninfringement. In no event shall the author be liable for any claim, damages, or other liability arising from use of this software.
+
+───────────────────────────────
+6. ACCEPTANCE
+───────────────────────────────
+By installing or using BG-Window7k, you acknowledge that you have read, understood, and agreed to all terms listed in this agreement.
+
+───────────────────────────────
+© 2025 Jeremy K.M — All Rights Reserved

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loading...</title>
+
+  <!-- 🎨 Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+  <!-- 🎨 External CSS -->
+  <link rel="stylesheet" href="./assets/css/index.css" />
+</head>
+
+<body>
+  <!-- 🔄 Loader -->
+  <div class="spinner" aria-hidden="true">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <div class="loading-text" id="loadingText" aria-live="polite">Initializing...</div>
+
+  <!-- 💡 Cinematic Layers -->
+  <div id="vignette" aria-hidden="true"></div>
+  <div id="spotlight" aria-hidden="true"></div>
+
+  <!-- ⚡ Power Switch -->
+  <div id="switchWrap" aria-hidden="true">
+    <img id="switch" src="./assets/RealisticSwitchOFF.png" alt="Power switch OFF">
+  </div>
+
+  <!-- ✨ Decorative Dots -->
+  <img id="fadedDots" src="./assets/FadedDotsUI.png" alt="" aria-hidden="true">
+
+  <!-- 🌑 Blackout Layer -->
+  <div id="blackout" aria-hidden="true"></div>
+
+  <!-- 👤 Credits -->
+  <div class="credits">
+    Loading GumballStudiosS Engine<br>
+    Jeremy K.M
+  </div>
+
+  <!-- ⚙️ External JS -->
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
