@@ -1,7 +1,7 @@
 {
   "name": "bg-window7k",
   "productName": "BG-Window7k",
-  "version": "0.9.0",
+  "version": "0.9.3",
   "description": "A set of very useful windows",
   "author": "Jeremy K.M",
   "main": "main.js",
